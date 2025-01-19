@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(0deg, #bfbfc0 0%, #ffffff 100%);
+
+}
+nav {
+    grid-area: nav;
+    padding: 20px;
+    margin: 15px;
+}
+.contenedor_principal {
+    background-color: #260606;
+    max-width: 1000px; 
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "nav nav nav"
+    "tarjetas tarjetas tarjetas"
+    "bloque1 bloque2 sidebar"
+    "footer footer footer";
+    }
+
+    .card {
+        grid-area: card;
+        background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+
+    }
+
+
+    footer {
+        grid-area: footer;
+        background-color: #89aeb2;
+        color:aliceblue;
+        border-radius: 25px;
+        display: flex;
+        padding: 20px;
+    }

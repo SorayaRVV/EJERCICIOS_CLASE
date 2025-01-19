@@ -1,0 +1,26 @@
+COMANDOS DE TERMINAL
+
+cd para cambiar directorio
+
+ls listar el directorio
+
+mkdir crear carpeta
+
+mv nombreantiguo nombrenuevo  para cambiar el nombre de un archivo
+
+clear limpiar pantalla
+
+touch crear archivo
+
+cat < crear archivo
+
+code .  para abrir visual
+
+rm para borrar
+
+Además
+
+ctrl +  para aumentar y hacer zoom
+ctrl -
+
+crtl j abrir terminal
